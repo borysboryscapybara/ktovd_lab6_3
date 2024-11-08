@@ -9,9 +9,9 @@ from surprise import SVD
 from surprise.model_selection import train_test_split
 
 #
-hotel_details = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/ktovd/lab 6/hotel/Hotel_details.csv")
-room_attributes = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/ktovd/lab 6/hotel/Hotel_Room_attributes.csv")
-price_data = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/ktovd/lab 6/hotel/hotel_price_min_max - Formula.csv")
+hotel_details = pd.read_csv("hotel/Hotel_details.csv")
+room_attributes = pd.read_csv("hotel/Hotel_Room_attributes.csv")
+price_data = pd.read_csv("hotel/hotel_price_min_max - Formula.csv")
 
 # Очищення даних: заповнення пропусків
 hotel_details.fillna("", inplace=True)
