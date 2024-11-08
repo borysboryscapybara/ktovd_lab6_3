@@ -1,5 +1,6 @@
-#pip install pandas scikit-learn numpy surprise
-#pip install numpy<2
+#pip install
+#pip install pandas scikit-learn numpy<2 surprise tqdm
+
 
 import pandas as pd
 import numpy as np
